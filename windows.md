@@ -39,6 +39,12 @@
     SecondaryServerAddress=172.20.224.100
     ```
 
+   And set the local binding address to 127.0.0.1:
+    
+    ```text
+    LocalIPv4BindingAddress=127.0.0.1
+    ```
+
    Save the file. Click yes when it asks to restart the service.
 
 7. Update Windows DNS values to point to 127.0.0.1 only.
